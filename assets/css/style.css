@@ -1,9 +1,11 @@
 body {
     font-family: "Raleway", sans-serif;
+    background-color: #fafbfc;
     }
-#Navbar {
-    background-color:#06294bff;
+.blue-navbar {
+  background-color: #0b294bff;
 }
+
   /* Hero Section */
   
   #Hero-Section {
@@ -11,6 +13,10 @@ body {
     background-size: cover;
     background-position: left;
   }
+
+.text-grey{
+  color:#fafbfc;
+}
   
   /* Mis trabajos */
   
@@ -18,7 +24,15 @@ body {
     height: 260px;
     background-color:#0b294bff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+  }
+
+   /* Mis proyectos */
+  
+    #Mis-proyectos {
+    height: 260px;
+    background-color:#0b294bff;
+    background-repeat: no-repeat;
     background-position: center;
   }
   

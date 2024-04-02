@@ -15,21 +15,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
 <body>
-    <nav id="Navbar" class="navbar navbar-expand-lg fixed-top">
+    <nav id="Navbar" class="navbar navbar-expand-lg fixed-top blue-navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/assets/images/logo_1.png" class="img-fluid" style:height="20rem">
+                <img src="/assets/images/logo_1.png" class="img-fluid" width="250" height="360" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-grey">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Acerca de mi</a>
                     </li>
@@ -44,53 +44,67 @@
         </div>
     </nav>
 
-    <header id="Hero-Section" class="text-end py-5 mt-5">
-        <div class="container">
-            <div class="row ms-auto col-12 col-md-7">
-                <div class="col 6">
-                    <img src="/assets/images/perfil.png" alt="">
-                </div>
-                <div class="col 6">
-                    <h1 class="display-1 fw-bold my-5">
-                        Customer Success <br> Technical Sales
-                    </h1>
-                    <p class="my-5">
-                        Profesional bilingüe -Spa/Eng- con más de 8 años de experiencia en Customer Success, Customer Support y Project Management en empresas de tecnología y SaaS. 
-                        Destaco por mi orientación al cliente, enfoque analítico, planificación meticulosa, mejora continua y comunicación asertiva. 
-                        Ingeniero Comercial UAI aprendiendo sobre SaaS, Cloud, Desarrollo, ITSM.
-                    </p>
+    <header id="Hero-Section" class="text-center py-5 mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="card">
+                    <img src="/assets/images/profile.jpeg" class="image-top p-5" alt="Caso_1">
                 </div>
             </div>
-        </div>
+            <div class="col-12 col-sm-6 py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="display-1 fw-bold fs-1 my-5">
+                            Customer Success
+                        </h2>
+                        <h2 class="display-1 fw-bold fs-1 my-5">
+                            Technical Sales
+                        </h2>
+                        <h2 class="display-1 fw-bold fs-1 my-5">
+                            Fullstack Developer Javascript
+                        </h2>
+                        <p class="my-5 fs-4">
+                            Profesional bilingüe -Spa/Eng- con más de 8 años de experiencia en Customer Success, Customer Support y Project Management en empresas de tecnología y SaaS. 
+                            Destaco por mi orientación al cliente, enfoque analítico, planificación meticulosa, mejora continua y comunicación asertiva. 
+                            Ingeniero Comercial UAI aprendiendo sobre SaaS, Cloud, Desarrollo, ITSM. Actualmente estudiando Fullstack Developer Javascript
+                        </p>
+                    </div>
+                </div>
+            </div>
     </header>
 
 
     <section id="Acerca-de-mi" class="container text-center my-5">
-
-
-        <h2 class="display-3 fw-bold my-4">¿Cómo te puedo ayudar?</h2>
+        <h2 class="display-4 fw-bold my-4">¿Cómo te puedo ayudar?</h2>
         <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fa-solid fa-route"></i>
+            <div class="col-6 col-md-4">
+                <i class="fa-solid fa-route fs-2"></i>
                 <h3 class="my-3 fw-bold">Customer Journey</h3>
                 <p class="my-3">
                     Proceso de escuchar al cliente, entender su necesidad, proponer una solución
                     y presentar un solución a su dolor. 
                 </p>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="fa-solid fa-diagram-predecessor"></i>
+            <div class="col-6 col-md-4">
+                <i class="fa-solid fa-diagram-predecessor fs-2"></i>
                 <h3 class="my-3 fw-bold">Success Canvas</h3>
                 <p class="my-3">
                     Herramienta visual que te ayuda a definir y medir el éxito de tu producto o servicio.
                 </p>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="fa-solid fa-heart-pulse"></i>
+            <div class="col-6 col-md-4">
+                <i class="fa-solid fa-heart-pulse fs-2"></i>
                 <h3 class="my-3 fw-bold">Customer Health Index</h3>
                 <p class="my-3">
                     Herramienta para clasificar la salud de tus clientes B2B con un indicador %.  
                     Te ayuda a identificar a los que están contentos, en riesgo o necesitan atención.
+                </p>
+            </div>
+            <div class="col-6 col-md-4">
+                <i class="fa-solid fa-code fs-2"></i>
+                <h3 class="my-3 fw-bold">Website Development</h3>
+                <p class="my-3">
+                    Desarrollo de sitios web increíbles para tu empresa.
                 </p>
             </div>
         </div>
@@ -150,12 +164,52 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    <section id="Mis-proyectos" class="my-5 p-5">
+
+        <h2 class="display-4 fw-bold text-center text-light mb-3 blue-bg">Portafolio</h2>
+
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <h5 class="card-title fw-bold text-center">Tienda de Realidad Virtual</h5>
+                    <img src="/assets/images/proyectos/VR.png" class="image-bottom" alt="Caso_1">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <h5 class="card-title fw-bold text-center">Sitio Iguanas</h5>
+                    <img src="/assets/images/proyectos/Iguanas.png" class="image-top" alt="Caso_2">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <h5 class="card-title fw-bold text-center">Tienda Cuppon</h5>
+                    <img src="/assets/images/proyectos/Cuppon.png" class="image-top" alt="Caso_3">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-info">
+                            Ver más
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
-    <section id="Contacto" class="container my-5 bg-dark text-light blue-bg">
+    <section id="Contacto" class="container my-5 blue-navbar text-light">
 
         <h2 class="display-4 fw-bold text-center my-4">Conversemos</h2>
 
