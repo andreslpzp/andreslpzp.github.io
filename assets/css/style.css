@@ -26,13 +26,14 @@ body {
     background-position: center;
   }
 
-   /* Mis proyectos */
+   /* Mi Portafolio */
   
-    #Mis-proyectos {
-    background-color:#0b294bff;
-    background-repeat: no-repeat;
-    background-position: center;
+.carousel {
+    background-color: rgb(153, 156, 159);
+    width: fit-content;
+    height:fit-content;
   }
+
   
 /* Contacto */
   
