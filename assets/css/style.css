@@ -29,9 +29,13 @@ body {
    /* Mi Portafolio */
   
 .carousel {
-    background-color: rgb(153, 156, 159);
     align-content: center;
   }
+
+.carousel_title{
+  color: aliceblue;
+  background-color: #0b294bff;
+} 
   
 /* Contacto */
   
