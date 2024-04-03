@@ -30,10 +30,8 @@ body {
   
 .carousel {
     background-color: rgb(153, 156, 159);
-    width: fit-content;
-    height:fit-content;
+    align-content: center;
   }
-
   
 /* Contacto */
   
