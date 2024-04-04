@@ -25,9 +25,9 @@
             <a class="navbar-brand" href="#">
                 <img src="/assets/images/logo_1.png" class="img-fluid" width="300" height="250" alt="logo">
             </a>
-            <div class="dropdown">
+            <div class="dropstart">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Menu
+                    <i class="fa-solid fa-bars"></i>
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#Educacion">Educación</a></li>
@@ -74,13 +74,44 @@
 <!-- Educacion -->
     <section id="Educacion" class="container my-5">
         <h2 class="display-6 fw-bold my-4 text-center">Educación</h2>
-        <ul class="list-group">
-            <li class="list-group-item">Ingeniero Comercial - Universidad Adolfo Ibáñez</li>
-            <li class="list-group-item">MSc. en Marketing - Universidad Adolfo Ibáñez</li>
-            <li class="list-group-item">Customer Success Management Levels 1 & 2 - Success Hacker </li>
-            <li class="list-group-item">Cloud Sales Professional - Atlassian</li>
-            <li class="list-group-item">Technical Sales - Atlassian</li>
-        </ul>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Ingeniero Comercial MSc. en Marketing
+                </button>
+                </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Ingeniero Comercial con MSc. en Marketing <a href="https://www.uai.cl/" target="_blank" > Universidad Adolfo Ibáñez</a>
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Customer Success Management - Levels 1 & 2
+                </button>
+                </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Customer Success Manager Certificado <a href="https://successcoaching.co/" target="_blank" >Success Coaching</a>
+                </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Cloud Sales Profesional & Technical Sales - Atlassian
+                </button>
+                </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Acreditado en <a href="https://university.atlassian.com/" target="_blank"> Atlassian University</a>
+                </div>
+            </div>
+            </div>
+        </div>
     </section>
 <!-- Fin Educacion -->
 
@@ -136,9 +167,6 @@
                             La herramienta permitió a la empresa mejorar la retención de clientes, aumentar el valor de por vida del cliente y 
                             mejorar la satisfacción del cliente.
                         </p>
-                        <button type="button" class="btn blue-bg text-light">
-                            Ver más
-                        </button>
                     </div>
                 </div>
             </div>
@@ -151,9 +179,6 @@
                             La implementación del Canvas para clientes en la empresa española fue un éxito rotundo. 
                             La herramienta permitió a la empresa mejorar la experiencia del cliente, aumentar la satisfacción del cliente y reducir las quejas de los clientes
                         </p>
-                        <button type="button" class="btn blue-bg text-light">
-                            Ver más
-                        </button>
                     </div>
                 </div>
             </div>
@@ -167,9 +192,6 @@
                             La empresa logró mejorar la experiencia del cliente, aumentar la tasa de utilización de las estaciones de carga y 
                             reducir el tiempo de espera
                         </p>
-                        <button type="button" class="btn blue-bg text-light">
-                            Ver más
-                        </button>
                     </div>
                 </div>
             </div>
@@ -209,13 +231,14 @@
     </div>
 </section>
 <!-- fin de carrusel de proyectos -->
+
 <!-- Sección Commits compañeros -->
 <section id="Commits" class="p-4">
-    <h2 class="display-4 fw-bold text-center text-light m-5 blue-bg">Commits en proyectos forkeados de compañeros</h2>
+    <h2 class="fw-bold text-center text-dark m-5">Commits en proyectos forkeados de compañeros</h2>
     <div class="row">
         <div class="col-12 col-sm-6 py-2">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <h5 class="card-title fw-bold">Commit a proyecto</h5>
                     <p class="card-text">
                         <a href="https://github.com/andreslpzp/Molina92.github.io">Molina92.github.io</a>
@@ -225,7 +248,7 @@
         </div>
         <div class="col-12 col-sm-6 py-2">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <h5 class="card-title fw-bold">Commit a proyecto</h5>
                     <p class="card-text">
                         <a href="https://github.com/andreslpzp/pablocelva.github.io">pablocelva.github.io</a>
@@ -270,11 +293,11 @@
 <!-- Calendly inline widget end -->
 </div>
 
-
+<!-- footer -->
 <footer class="text-center text-light p-4 blue-navbar">
         <p class="mb-0">Andres Lopez 2024. Todos los derechos reservados.</p>
 </footer>
-
+<!-- fin footer -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
