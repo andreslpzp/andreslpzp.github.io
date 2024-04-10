@@ -1,7 +1,6 @@
-# Proyecto Final - Primer módulo
-## Mi CV
+# My Resume
 
-Secciones
+Sections
 
 1. Menu con barra de navegación
 2. Carrusel con Portafolio
