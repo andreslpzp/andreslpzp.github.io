@@ -14,10 +14,25 @@ body {
     background-position: left;
   }
 .item-container{
-  background-color: rgb(176, 172, 172);
+  background-color: #0b294bff;
   display: flex;
   justify-content: center;
   border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.item-container-2{
+  background-color: #0b294bff;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  height: 80px;
+  width: 80px;
+  vertical-align: middle;
+  font-size: 3em;
 }
 
 
